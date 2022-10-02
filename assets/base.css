@@ -2957,3 +2957,13 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+/* 2022.10.02 edited */
+
+body {
+  background: url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/bg01.png?v=1664694781);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+/* 2022.10.02 edited */
