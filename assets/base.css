@@ -2965,4 +2965,8 @@ html *{
   background-repeat: repeat!important;
 }
 
+footer, header {
+  background: rgba(0, 0, 0, 0.8):
+}
+
 /* 2022.10.02 edited */
