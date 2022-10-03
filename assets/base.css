@@ -2977,16 +2977,7 @@ body{
   background: transparent!important;
 }
 
-body::after {
-  display: block;
-  content: "";
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 2;
+.gradient {
   background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui01blue.jpg);
 }
 
