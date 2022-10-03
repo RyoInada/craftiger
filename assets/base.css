@@ -2969,4 +2969,8 @@ html *{
   background: rgba(0, 0, 0, 0.8);
 }
 
+#shopify-section-announcement-bar {
+  opacity: 0.8;
+}
+
 /* 2022.10.02 edited */
