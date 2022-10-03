@@ -2965,7 +2965,7 @@ html *{
   background-repeat: repeat!important;
 }
 
-footer, header {
+.footer, .header {
   background: rgba(0, 0, 0, 0.8):
 }
 
