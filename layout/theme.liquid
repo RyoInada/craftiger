@@ -68,7 +68,8 @@
         --color-base-accent-2: {{ settings.colors_accent_2.red }}, {{ settings.colors_accent_2.green }}, {{ settings.colors_accent_2.blue }};
         --payment-terms-background-color: {{ settings.colors_background_1 }};
 
-        --gradient-base-background-1: {% comment %}{% if settings.gradient_background_1 != blank %}{{ settings.gradient_background_1 }}{% else %}{{ settings.colors_background_1 }}{% endif %}{% endcomment %}url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui01blue.jpg);
+        --gradient-base-background-1:{% if settings.gradient_background_1 != blank %}{{ settings.gradient_background_1 }}{% else %}{{ settings.colors_background_1 }}{% endif %};
+/*         --gradient-base-background-1: {% comment %}{% if settings.gradient_background_1 != blank %}{{ settings.gradient_background_1 }}{% else %}{{ settings.colors_background_1 }}{% endif %}{% endcomment %}url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui01blue.jpg); */
 /*         --gradient-base-background-1: {% comment %}{% if settings.gradient_background_1 != blank %}{{ settings.gradient_background_1 }}{% else %}{{ settings.colors_background_1 }}{% endif %}{% endcomment %}url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui01white.jpg); */
 /*         --gradient-base-background-1: {% comment %}{% if settings.gradient_background_1 != blank %}{{ settings.gradient_background_1 }}{% else %}{{ settings.colors_background_1 }}{% endif %}{% endcomment %}url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui02blue.png); */
 /*         --gradient-base-background-1: {% comment %}{% if settings.gradient_background_1 != blank %}{{ settings.gradient_background_1 }}{% else %}{{ settings.colors_background_1 }}{% endif %}{% endcomment %}url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui02white.png); */
