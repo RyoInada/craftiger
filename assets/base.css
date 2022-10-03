@@ -2963,8 +2963,10 @@ details-disclosure > details {
 html *{
   background-size: cover!important;
   background-repeat: repeat!important;
+}
+
+html {
   background-color:rgba(255,255,255,0.8);
   background-blend-mode:lighten;
 }
-
 /* 2022.10.02 edited */
