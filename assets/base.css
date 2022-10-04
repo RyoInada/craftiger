@@ -2979,5 +2979,9 @@ body.gradient {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.card__badge {
+  display: none;
+}
+
 
 /* 2022.10.02 edited */
