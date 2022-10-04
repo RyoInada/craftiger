@@ -2976,8 +2976,7 @@ body.gradient {
 }
 
 #shopify-section-announcement-bar {
-  background: #000;
-  opacity: 0.7;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 
