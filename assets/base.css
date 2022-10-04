@@ -2963,8 +2963,10 @@ details-disclosure > details {
   background: transparent!important;
 }
 body.gradient {
-  background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui01blue.jpg)!important;
+/*   background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui01blue.jpg)!important; */
 /*   background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui01white.jpg)!important; */
+  background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui03blue.jpg)!important;
+/*   background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui03white.jpg)!important; */
 /*   background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui02blue.png)!important; */
 /*   background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui02white.png)!important; */
   background-size: contain!important;
