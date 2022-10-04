@@ -2967,7 +2967,7 @@ body.gradient {
 /*   background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui01white.jpg)!important; */
 /*   background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui02blue.png)!important; */
 /*   background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui02white.png)!important; */
-/*   background-size: cover!important; */
+  background-size: cover!important;
   background-repeat: repeat!important;
 }
 
