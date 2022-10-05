@@ -2983,7 +2983,7 @@ body.gradient {
   display: none;
 }
 
-*:not(footer), *:not(header) {
+*:not(.footer):not(.header) {
   color: #000!important;
 }
 
