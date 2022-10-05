@@ -2983,7 +2983,13 @@ body.gradient {
   display: none;
 }
 
-*:not(.footer):not(.header) {
+* {
+  color: #000!important;
+}
+.footer {
+  color: #000!important;
+}
+.header {
   color: #000!important;
 }
 
