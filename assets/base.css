@@ -2986,10 +2986,10 @@ body.gradient {
 * {
   color: #000!important;
 }
-.footer {
+.footer *{
   color: #000!important;
 }
-.header {
+.header *{
   color: #000!important;
 }
 
