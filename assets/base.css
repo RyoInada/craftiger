@@ -2990,7 +2990,7 @@ body {
   background:rgba(255,255, 255, 0.825)!important;
 }
 
-.collection {
+#shopify-section-header .gradient,.collection:has(.gradient) {
   background:rgba(255,255, 255, 0.6)!important;
 }
 
