@@ -2981,7 +2981,7 @@ body.gradient {
   display: none;
 }
 
-* {
+*:not(.button) {
   color: #000!important;
 }
 
