@@ -2983,5 +2983,9 @@ body.gradient {
   display: none;
 }
 
+#shopify-section-header {
+  position: sticky;
+  top: 0;
+}
 
 /* 2022.10.02 edited */
