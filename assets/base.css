@@ -2959,9 +2959,7 @@ details-disclosure > details {
 }
 
 /* 2022.10.02 edited */
-.gradient {
-  background: transparent!important;
-}
+
 body.gradient {
 /*   background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui01blue.jpg)!important; */
   background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui01white.jpg)!important;
@@ -2989,7 +2987,7 @@ body.gradient {
 }
 
 #cart-notification {
- background: #fff;  
+ background: #fff!important;  
 }
 
 /* 2022.10.02 edited */
