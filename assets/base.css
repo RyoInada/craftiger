@@ -2239,7 +2239,7 @@ input[type='checkbox'] {
 /* Main Header Layout */
 .header-wrapper {
   display: block;
-  position: sticky;
+  position: relative;
   background-color: rgb(var(--color-background));
   z-index: 1;
 }
@@ -2980,7 +2980,6 @@ body.gradient {
 .card__badge {
   display: none;
 }
-
 
 
 /* 2022.10.02 edited */
