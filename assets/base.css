@@ -2970,8 +2970,7 @@ body.gradient {
 }
 
 .header-wrapper {
-  background-size: 300px!important;
-  background:url(https://cdn.shopify.com/s/files/1/0576/1915/2979/files/shikkui01white.jpg)!important;
+  background:#fff;
 }
 
 .footer, #shopify-section-announcement-bar {
