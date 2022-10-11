@@ -2974,10 +2974,6 @@ body {
   
 }
 
-.header-wrapper {
-  background:rgba(255,255, 255, 0.8)!important;
-}
-
 /* .footer, #shopify-section-announcement-bar {
   background: rgba(0, 0, 0, 0.5)!important;
   background: rgba(255,255, 255, 0.8)!important;
@@ -2991,10 +2987,7 @@ body {
 #shopify-section-header {
   position: sticky;
   top: 0;
-}
-
-#cart-notification {
-/*  background: #fff!important;   */
+  background:rgba(255,255, 255, 0.8)!important;
 }
 
 /* 2022.10.02 edited */
