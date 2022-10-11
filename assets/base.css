@@ -2970,7 +2970,7 @@ body.gradient {
 }
 
 .header-wrapper {
-  background:#fff;
+  background:#fff!important;
 }
 
 .footer, #shopify-section-announcement-bar {
