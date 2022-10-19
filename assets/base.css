@@ -3006,7 +3006,7 @@ body {
   background: #fff!important;
 }
 
-.product-grid-container .collection {
+.product-grid-container .collection #product-grid {
   background:rgba(255,255, 255, 0.3);
 }
 /* 2022.10.02 edited */
