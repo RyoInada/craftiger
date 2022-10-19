@@ -3001,4 +3001,8 @@ body {
 .shopify-section .gradient:has(.collection) {
   background:rgba(255,255, 255, 0.3)!important;
 }
+
+#cart-notification {
+  background: #fff;
+}
 /* 2022.10.02 edited */
