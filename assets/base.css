@@ -3006,11 +3006,11 @@ body {
   background: #fff!important;
 }
 
-/* .product-grid-container {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background:rgba(255,255, 255, 0.3);
-} */
+.product-grid-container {
+  padding-top: 2em;
+  padding-bottom: 2em;
+/*   background:rgba(255,255, 255, 0.3); */
+}
 
 .facet-filters__sort,.disclosure-has-popup.facets__disclosure.js-filter {
     outline: .2rem solid rgba(var(--color-foreground),.5);
