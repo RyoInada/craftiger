@@ -165,7 +165,15 @@
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
-              "menu": "footer"
+              "menu": "main-menu"
+            }
+          },
+          "0e462133-766a-4a69-b8f7-b41500c49c6d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/CrafTiger_logo_white.png",
+              "image_width": 100,
+              "alignment": "center"
             }
           },
           "footer-1": {
@@ -178,6 +186,7 @@
         },
         "block_order": [
           "footer-0",
+          "0e462133-766a-4a69-b8f7-b41500c49c6d",
           "footer-1"
         ],
         "settings": {
