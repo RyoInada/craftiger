@@ -3002,7 +3002,7 @@ body {
   background:rgba(255,255, 255, 0.3)!important;
 }
 
-#cart-notification {
-  background: #fff;
+#shopify-section-header #cart-notification {
+  background: #fff!important;
 }
 /* 2022.10.02 edited */
