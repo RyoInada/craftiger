@@ -3018,6 +3018,6 @@ body {
 }
 
 .facet-filters__sort:focus-visible {
-    box-shadow: none;
+    box-shadow: none!important;
 }
 /* 2022.10.02 edited */
