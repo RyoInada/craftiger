@@ -3018,9 +3018,6 @@ body {
 }
 
 .facet-filters__sort:focus-visible {
-    outline: .2rem solid rgba(var(--color-foreground),.5);
-    outline-offset: 1rem;
-    box-shadow: initial;
-    background: transparent;
+    box-shadow: none;
 }
 /* 2022.10.02 edited */
