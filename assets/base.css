@@ -3007,6 +3007,8 @@ body {
 }
 
 .product-grid-container {
+  padding-top: 1em;
+  padding-bottom: 1em;
   background:rgba(255,255, 255, 0.3);
 }
 /* 2022.10.02 edited */
