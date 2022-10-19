@@ -165,7 +165,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
-              "menu": "main-menu"
+              "menu": "footer"
             }
           },
           "0e462133-766a-4a69-b8f7-b41500c49c6d": {
@@ -180,7 +180,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Info",
-              "menu": "footer"
+              "menu": "footer-2"
             }
           }
         },
