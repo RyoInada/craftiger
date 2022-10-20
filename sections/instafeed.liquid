@@ -1,0 +1,70 @@
+<div id="testArea"></div>
+<script>
+  const testArea = document.querySelector('#testArea');
+  const instagram_business_id = '17841400714747062';
+  const access_token = 'EAAEyjQEAUC0BAPcGEfmbN8gFdd2MbhinNIqGPty00GyW0UOJEFQtFHljnV5Ki3K6pZBLnja6QrUvqo1cG7AQTwoIkMi8ebMT4zqyuw2TzBXA0HRiHRIpVpaU2viMBJZBDZADl65PZCOq2p6OKXjKNqmDjxlFm4vMrqNfRJMpFRX1hdISA8ca';
+  let user_id = 'etin_jp'
+  let limit = 20; // 取得する投稿数
+  generatePostCards();
+  function getPostData() {    
+    return fetch(`https://graph.facebook.com/v14.0/${instagram_business_id}?fields=business_discovery.username(${user_id}){username,profile_picture_url,media.limit(${limit}){caption,media_url,permalink,like_count,media_type}}&access_token=${access_token}`) .then(response => response.json())
+    .then(data => {
+      console.log(data);
+      return data;
+                  });
+  }
+
+  async function generatePostCards() {
+    const postData = await getPostData();
+    const posts = postData.business_discovery.media.data;
+    const userID = postData.business_discovery.username;
+    const profPic = postData.business_discovery.profile_picture_url;
+    for (let i  in posts) {
+      const cardElm = document.createElement("div");
+      cardElm.classList.add('post-card');
+      if (posts[i].media_type == "IMAGE") {
+        let postCard = `
+        <div class="post-card">
+          <div class="post-card__user">
+            <img src="${profPic}" width="60px" height="60px">
+            <p>${userID}</p>
+          </div>
+          <div class="post-card__image">
+            <img src="${posts[i].media_url}" width="300px" height="auto">
+          </div>
+          <div class="post-card__like">
+            <p>${posts[i].like_count}いいね</p>
+          </div>
+          <div class="post-card__desc">
+            <p>${posts[i].caption}</p>
+          </div>
+        </div>
+        `
+        cardElm.innerHTML = postCard;
+        testArea.append(cardElm);
+      } else if (posts[i].media_type == "MOVIE") {
+        let postCard = `
+        <div class="post-card">
+          <div class="post-card__user">
+            <img src="${profPic}" width="60px" height="60px">
+            <p>${userID}</p>
+          </div>
+          <div class="post-card__image">
+            <video src="${posts[i].media_url}" width="300px" height="300px"></video>
+          </div>
+          <div class="post-card__like">
+            <p>${posts[i].like_count}いいね</p>
+          </div>
+          <div class="post-card__desc">
+            <p>${posts[i].caption}</p>
+          </div>
+        </div>
+        `
+        cardElm.innerHTML = postCard;
+        testArea.append(cardElm);
+      }
+    }
+  }
+
+
+</script>
