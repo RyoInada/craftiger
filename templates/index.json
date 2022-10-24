@@ -290,7 +290,7 @@
           "settings": {
             "heading": "模様や大きさについて",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>模様や大きさには誤差がございます。<\/p>",
             "page": ""
           }
         },
