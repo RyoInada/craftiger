@@ -299,7 +299,7 @@
           "settings": {
             "heading": "取り扱いとお手入れ",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>お手入れは・・・<\/p>",
             "page": ""
           }
         },
