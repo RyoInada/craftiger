@@ -125,7 +125,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "announcement-bar-0": {
+          "fce8a109-1700-42a4-8052-936207fc7197": {
             "type": "announcement",
             "settings": {
               "text": "Welcome to our store",
@@ -136,7 +136,7 @@
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "fce8a109-1700-42a4-8052-936207fc7197"
         ],
         "settings": {
         }

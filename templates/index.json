@@ -3,18 +3,18 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Wood & Resin Necklace",
-            "text_style": "body"
-          }
-        },
         "heading": {
           "type": "heading",
           "settings": {
             "heading": "Craftiger",
             "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "-Wood & Resin Necklace-",
+            "text_style": "body"
           }
         },
         "button": {
@@ -30,18 +30,18 @@
         }
       },
       "block_order": [
-        "text",
         "heading",
+        "text",
         "button"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC_0144.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "top-left",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
