@@ -153,7 +153,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "サイズガイドライン",
-            "icon": "none",
+            "icon": "eye",
             "row_content": "<p><em><strong>Size表記 TOPの上下の長さ<\/strong><\/em><\/p><p><strong>XL : (円直径55mm 以上)　<\/strong><\/p><p><strong>L：(円直径45mm 以上 55mm 未満)　<\/strong><\/p><p><strong>M：(円直径35mm 以上 45mm 未満)  <\/strong><\/p><p><strong> S : (円直径35mm 以上)<\/strong><\/p><p>※同商品でもハンドメイドの為±３mmほど誤差がある場合がございます。<\/p>",
             "page": ""
           }
@@ -180,7 +180,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "送料・配送",
-            "icon": "none",
+            "icon": "plane",
             "row_content": "<p><strong>●配送<\/strong><\/p><p>在庫品の場合：状態確認後7日以内に発送となります。<\/p><p>オーダーメイドの場合：完成後3日以内の発送となります。<\/p><p><\/p><p><\/p><p>●送料<\/p><p><strong>①ネコポス：全国一律330円<\/strong><\/p><p><strong>②宅急便：全国一律830円<\/strong><\/p><p><strong>③代金引換は行なっておりません<\/strong><\/p><p><\/p><p>※ネコポスでの代金引換は出来ません。<\/p><p>※ネコポスは宅急便と同じ速さで到着します。<\/p><p>※ネコポス(速達)はポストへの投函で配達完了となります。紛失、盗難等の場合は無保証となります。<\/p><p>※離島・海外発送は料金が別途追加されます。<\/p><p><\/p><p><\/p>",
             "page": ""
           }
