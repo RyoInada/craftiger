@@ -152,9 +152,9 @@
         "template--14808929075283__3100ebb6-e0f4-4d9a-8326-818f9838990f-1666102338281dec2d-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "模様や大きさについて",
+            "heading": "サイズガイドライン",
             "icon": "none",
-            "row_content": "<p>模様や大きさには誤差がございます。<\/p>",
+            "row_content": "<p><em><strong>Size表記 TOPの上下の長さ<\/strong><\/em><\/p><p><strong>XL : (円直径55mm 以上)　<\/strong><\/p><p><strong>L：(円直径45mm 以上 55mm 未満)　<\/strong><\/p><p><strong>M：(円直径35mm 以上 45mm 未満)  <\/strong><\/p><p><strong> S : (円直径35mm 以上)<\/strong><\/p><p>※同商品でもハンドメイドの為±３mmほど誤差がある場合がございます。<\/p>",
             "page": ""
           }
         },
@@ -175,12 +175,22 @@
             "row_content": "",
             "page": ""
           }
+        },
+        "40c8a1d6-85c6-4459-954e-199ca3ebe6f4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "template--14808929075283__3100ebb6-e0f4-4d9a-8326-818f9838990f-1666102338281dec2d-0",
         "template--14808929075283__3100ebb6-e0f4-4d9a-8326-818f9838990f-1666102338281dec2d-1",
-        "template--14808929075283__3100ebb6-e0f4-4d9a-8326-818f9838990f-1666102338281dec2d-2"
+        "template--14808929075283__3100ebb6-e0f4-4d9a-8326-818f9838990f-1666102338281dec2d-2",
+        "40c8a1d6-85c6-4459-954e-199ca3ebe6f4"
       ],
       "settings": {
         "caption": "",
