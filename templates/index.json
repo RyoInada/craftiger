@@ -220,6 +220,15 @@
             "row_content": "<p>郵便番号:812−0064<\/p><p>住所：福岡県福岡市東区松田3−16−29<\/p><p>会社名：CrafTiger<\/p><p>代表：佐々木　庸亮<\/p><p>ご連絡メールアドレス：craftiger.shop@gmail.com<\/p><p>instagram:raftiger_r4<\/p><p>https:\/\/www.instagram.com\/craftiger_r4\/<\/p>",
             "page": ""
           }
+        },
+        "adc0720d-f455-4149-ae8e-a231fbb78af0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "領収書発行に関して",
+            "icon": "check_mark",
+            "row_content": "<p>注文確定時にご連絡をお願い致します。<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -230,7 +239,8 @@
         "template--14808929075283__3100ebb6-e0f4-4d9a-8326-818f9838990f-1666102338281dec2d-2",
         "baccf4fa-b5dc-46ee-8c88-da71710d2542",
         "40c8a1d6-85c6-4459-954e-199ca3ebe6f4",
-        "7f339aea-dea9-4257-85fc-99584a0034ea"
+        "7f339aea-dea9-4257-85fc-99584a0034ea",
+        "adc0720d-f455-4149-ae8e-a231fbb78af0"
       ],
       "settings": {
         "caption": "",
