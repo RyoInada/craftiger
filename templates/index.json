@@ -149,6 +149,15 @@
     "3100ebb6-e0f4-4d9a-8326-818f9838990f": {
       "type": "collapsible-content",
       "blocks": {
+        "a4713333-cb7a-4ad2-8691-51fdc00e9074": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "購入の流れ（ストアガイド）",
+            "icon": "price_tag",
+            "row_content": "<p>①ご希望商品の選択<\/p><p>②カラーバリエーションを選択<\/p><p>※在庫がない場合はカートに追加・今すぐ購入がクリックできません。<\/p><p><\/p>",
+            "page": ""
+          }
+        },
         "template--14808929075283__3100ebb6-e0f4-4d9a-8326-818f9838990f-1666102338281dec2d-0": {
           "type": "collapsible_row",
           "settings": {
@@ -205,6 +214,7 @@
         }
       },
       "block_order": [
+        "a4713333-cb7a-4ad2-8691-51fdc00e9074",
         "template--14808929075283__3100ebb6-e0f4-4d9a-8326-818f9838990f-1666102338281dec2d-0",
         "4fa0092b-2556-42df-944c-d5dd3c0c50cd",
         "template--14808929075283__3100ebb6-e0f4-4d9a-8326-818f9838990f-1666102338281dec2d-1",
