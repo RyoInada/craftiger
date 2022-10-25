@@ -225,7 +225,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "領収書発行に関して",
-            "icon": "check_mark",
+            "icon": "truck",
             "row_content": "<p>注文確定時にご連絡をお願い致します。<\/p>",
             "page": ""
           }
